@@ -55,7 +55,7 @@ def puzzle1B(list, target):
 
 
 def main():
-    file_input = open_input("Puzzle1A")
+    file_input = open_input("Puzzle1")
     outputA = puzzle1A(file_input, 2020)
     outputB = puzzle1B(file_input, 2020)
     print(f"Puzzle 1A: {outputA}, Puzzle 1B: {outputB}")
